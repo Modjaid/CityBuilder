@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a6d6bfb3c95e7444bde526d27363b34, type: 3}
+  m_Name: CanvasData
+  m_EditorClassIdentifier: 
+  PositiveColor: {r: 0.074216135, g: 0.8773585, b: 0, a: 1}
+  NegativeColor: {r: 0.84313726, g: 0.047058836, b: 0.07791346, a: 1}
+  ButtonPrefab: {fileID: 2093631238127995101, guid: 7b3b38eaf2fc7ba44ac7f6ea0280b540, type: 3}
+  _directorAvatars:
+  - {fileID: 21300000, guid: 62c7e1fd829391f4eaad45e85535321a, type: 3}
+  - {fileID: 21300000, guid: fb8c0e35a42a5f44b8c2ccd43ebbbc7e, type: 3}
+  _companyAvatars:
+  - SectionName: HappyScore
+    Avatars: []
+  - SectionName: Citizen
+    Avatars: []
+  - SectionName: Dollar
+    Avatars: []
+  - SectionName: Food
+    Avatars: []
+  - SectionName: Fuel
+    Avatars: []
+  - SectionName: Policmen
+    Avatars: []
+  - SectionName: Criminal
+    Avatars: []
+  - SectionName: FireFighter
+    Avatars: []
+  - SectionName: Fire
+    Avatars: []
+  - SectionName: Military
+    Avatars: []
+  - SectionName: Enemy
+    Avatars: []
+  - SectionName: GroundTransport
+    Avatars: []
+  - SectionName: FlyTrasport
+    Avatars: []
+  - SectionName: WaterTransport
+    Avatars: []
+  - SectionName: Culture
+    Avatars: []
+  - SectionName: Patriotizm
+    Avatars: []
+  - SectionName: Electronics
+    Avatars: []
+  - SectionName: Logistics
+    Avatars: []
+  - SectionName: Worker
+    Avatars: []
+  - SectionName: Engineer
+    Avatars: []
+  - SectionName: Doctor
+    Avatars: []
+  - SectionName: Lawyer
+    Avatars: []
+  - SectionName: Scientist
+    Avatars: []
+  - SectionName: Energy
+    Avatars: []
+  - SectionName: BuildingMaterials
+    Avatars: []
+  - SectionName: MassMedia
+    Avatars: []
+  - SectionName: Water
+    Avatars: []
+  - SectionName: Garbage
+    Avatars: []
+  - SectionName: Parasites
+    Avatars: []
+  - SectionName: Medicines
+    Avatars: []
+  - SectionName: HighTech
+    Avatars: []
+  - SectionName: Liberty
+    Avatars: []
+  - SectionName: Religion
+    Avatars: []
+  - SectionName: Sand
+    Avatars: []
+  - SectionName: Metall
+    Avatars: []
+  - SectionName: Cement
+    Avatars: []

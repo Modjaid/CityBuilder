@@ -1,0 +1,145 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &303082451470125073
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 303082451470125072}
+  - component: {fileID: 303082451470125076}
+  - component: {fileID: 303082451470125077}
+  - component: {fileID: 303082451470125074}
+  - component: {fileID: 303082451470125075}
+  - component: {fileID: 4964445801746104160}
+  - component: {fileID: 644106132382485513}
+  m_Layer: 0
+  m_Name: Director1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &303082451470125072
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &303082451470125076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21f4868b9a4f0974eade8c130cd7b8c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Log: 
+  _name: 
+  _age: 0
+  City: {fileID: 0}
+  _money: 10000
+  Owns: []
+  Experience:
+    _list: []
+  Respects:
+    _list: []
+--- !u!114 &303082451470125077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fe598a35a049fa49a0288c9f362419a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chance: 0.5
+  _templates: []
+  _expChance: 90
+  _similiarChance: 100
+  _experienceImproveFactor: {x: -0.1, y: 0.2}
+  _oldAmbitionSupposeMoney: {x: 0, y: 0.2}
+  _newAmbitionFactor: {x: 1, y: 4}
+  _newAmbitionFactorSpend: {x: 0.1, y: 0.1}
+  _newAmbitionMoney: {x: 0, y: 0.5}
+  _newAmbitionResourceSpend: {x: 1, y: 1}
+--- !u!114 &303082451470125074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62f2adcc181b6b34bb7cd5d6290b8477, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chance: 1
+  _projects: []
+--- !u!114 &303082451470125075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 882cb9297bc30ab428a3bd728313bf1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _rentCost: 1
+  _debtors:
+    _list: []
+--- !u!114 &4964445801746104160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9f4336be671fde4a8cd8d61e73bf277, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  Health: 0
+--- !u!114 &644106132382485513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303082451470125073}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca40083093b2e364f8be4a6511bd2a01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Chance: 60
+  _ambition:
+    _ambitionPattern: {fileID: 0}
+    _factor: 0
+    _resourceSpend: 0
+    _factorSpend: 0
+    _money: 0

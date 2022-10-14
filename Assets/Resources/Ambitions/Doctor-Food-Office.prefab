@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8853418571636466431
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2591985065981574808}
+  - component: {fileID: 6548062860539839705}
+  - component: {fileID: -552516134431020953}
+  - component: {fileID: -1905395366923312169}
+  - component: {fileID: 6453633414050305868}
+  - component: {fileID: -4456015098829508962}
+  m_Layer: 0
+  m_Name: Doctor-Food-Office
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2591985065981574808
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6548062860539839705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78702b03c31fff54ba2abf4951f43e22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Description: 
+  IsHide: 0
+  Input: 20
+  Output: 3
+  WorkPlace: 3
+  Factor: 3
+  Money: 0
+  Key: {fileID: 0}
+--- !u!114 &-552516134431020953
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc3a798ff50a2d14983ad8cf8b2fcde6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  AmbitionSpendSpeed: 0.1
+--- !u!114 &-1905395366923312169
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13f88ba3b128c3247a6067c5a5f61725, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  ResourceSpend: 0.1
+--- !u!114 &6453633414050305868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c847b9502ff717b44ae26b5d29180a21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _multiplePrice: 40
+--- !u!114 &-4456015098829508962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8853418571636466431}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9572ef820263dc842bba685b69319cff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  TargetSpace: 1
+  Spaces:
+    _list: []

@@ -1,0 +1,80 @@
+Key,English,Russian,Test,Description
+NewCandidateMessage.Friendly.Official.1,"Hello <PlayerFirstName> <PlayerLastName>, I very exiting with your <CompanyName>, i hope we go together! My investments <Money> dollars!","Здравствуйте <PlayerFirstName> <PlayerLastName> Я очень уважаю ваш <CompanyName> и готов стать участником её роста, готов внести <Money> рублей!!!","Friendly.Official.1
+(Здравствуйте <PlayerFirstName> <PlayerLastName> Я очень уважаю ваш <CompanyName> и готов стать участником её роста, готов внести <Money> рублей!!!)","<CompanyName> Имя компании
+<FirstName> имя кандидата
+<LastName> фамилия кандидата
+<PlayerFirstName> имя Игрока 
+<PlayerLastName> фамилия Игрока
+<Money> Предложение кандидата"
+NewCandidateMessage.Friendly.Official.2,,,Friendly.Official.2,
+NewCandidateMessage.Friendly.Official.3,,,Friendly.Official.3,
+NewCandidateMessage.Friendly.Official.4,,,Friendly.Official.4,
+NewCandidateMessage.Friendly.Official.5,,,Friendly.Official.5,
+NewCandidateMessage.Friendly.Official.6,,,Friendly.Official.6,
+NewCandidateMessage.Friendly.Official.7,,,Friendly.Official.7,
+NewCandidateMessage.Friendly.Official.8,,,Friendly.Official.8,
+NewCandidateMessage.Friendly.Slang.1,Wathsup Nigger!. Lets get my moneys for your <CompanyName>,"Здарова <PlayerFirstName> епта не помню фамилию мать его! Давай по братски дам <Money> бачинских, для твоей гоп компании <CompanyName>","Friendly.Slang.1
+(Здарова <PlayerFirstName> епта не помню фамилию мать его! Давай по братски дам <Money> бачинских, для твоей гоп компании <CompanyName>)",
+NewCandidateMessage.Friendly.Slang.2,,,Friendly.Slang.2,
+NewCandidateMessage.Friendly.Slang.3,,,Friendly.Slang.3,
+NewCandidateMessage.Friendly.Slang.4,,,Friendly.Slang.4,
+NewCandidateMessage.Friendly.Slang.5,,,Friendly.Slang.5,
+NewCandidateMessage.Friendly.Slang.6,,,Friendly.Slang.6,
+NewCandidateMessage.Friendly.Slang.7,,,Friendly.Slang.7,
+NewCandidateMessage.Friendly.Slang.8,,,Friendly.Slang.8,
+CreateNewCompanyMessage.Friendly.Official.1,,"Здравствуйте, хочу открыть компанию по производству <OutResource>. Полностью сам все организую, без всяких вложений. Подпишите только пожалуйста здесь","Friendly.Official.1
+(Здравствуйте, хочу открыть компанию по производству <OutResource>. Полностью сам все организую, без всяких вложений. Подпишите только пожалуйста здесь)","<HelpMoney> деньги которые просят у игрока
+<CompanyName> Имя компании
+<OutResource> Ресурс что компания будет производить
+<InResource> Ресурс из чего компания будет производить
+<PlayerFirstName> имя Игрока 
+<PlayerLastName> фамилия Игрока
+<Money> вложения кандидата"
+CreateNewCompanyMessage.Friendly.Official.2,,,Friendly.Official.2,
+CreateNewCompanyMessage.Friendly.Official.3,,,Friendly.Official.3,
+CreateNewCompanyMessage.Friendly.Official.4,,,Friendly.Official.4,
+CreateNewCompanyMessage.Friendly.Official.5,,,Friendly.Official.5,
+CreateNewCompanyMessage.Friendly.Official.6,,,Friendly.Official.6,
+CreateNewCompanyMessage.Friendly.Official.7,,,Friendly.Official.7,
+CreateNewCompanyMessage.Friendly.Official.8,,,Friendly.Official.8,
+CreateNewCompanyMessage.Friendly.Official.Help.1,,"Приветствую вас! У нас есть отличный план для снабжения <OutResource>, но нам срочно нужно закупаться <InResource>. Нужна правительственная помощь хотябы в <HelpMoney> рублей!","Friendly.Official.Help.1
+(Приветствую вас! У нас есть отличный план для снабжения <OutResource>, но нам срочно нужно закупаться <InResource>. Нужна правительственная помощь хотябы в <HelpMoney> рублей!)",
+CreateNewCompanyMessage.Friendly.Official.Help.2,,,Friendly.Official.Help.2,
+CreateNewCompanyMessage.Friendly.Official.Help.3,,,Friendly.Official.Help.3,
+CreateNewCompanyMessage.Friendly.Official.Help.4,,,Friendly.Official.Help.4,
+CreateNewCompanyMessage.Friendly.Official.Help.5,,,Friendly.Official.Help.5,
+CreateNewCompanyMessage.Friendly.Official.Help.6,,,Friendly.Official.Help.6,
+CreateNewCompanyMessage.Friendly.Official.Help.7,,,Friendly.Official.Help.7,
+CreateNewCompanyMessage.Friendly.Official.Help.8,,,Friendly.Official.Help.8,
+CreateNewCompanyMessage.Friendly.Slang.1,,,Friendly.Slang.1,
+CreateNewCompanyMessage.Friendly.Slang.2,,,Friendly.Slang.2,
+CreateNewCompanyMessage.Friendly.Slang.3,,,Friendly.Slang.3,
+CreateNewCompanyMessage.Friendly.Slang.4,,,Friendly.Slang.4,
+CreateNewCompanyMessage.Friendly.Slang.5,,,Friendly.Slang.5,
+CreateNewCompanyMessage.Friendly.Slang.6,,,Friendly.Slang.6,
+CreateNewCompanyMessage.Friendly.Slang.7,,,Friendly.Slang.7,
+CreateNewCompanyMessage.Friendly.Slang.8,,,Friendly.Slang.8,
+CreateNewCompanyAnswer.Invest.Yes.Friendly.Official.1,,Благодарю за содействие в развитии. Ваша законная доля:(<Data>%),"Invest.Yes.Friendly.Official.1
+(Благодарю за содействие в развитии. Ваша законная доля:(<Data>%))",
+CreateNewCompanyAnswer.Invest.No.Friendly.Official.1,,"Спасибо, но мы сами управимся","Invest.No.Friendly.Official.1
+(Спасибо, но мы сами управимся)",
+CreateNewCompanyAnswer.BigInvest.Yes.Friendly.Official.1,,Правительство лучший инвестор! Спасибо! Ваша доля: (<Data>%),"BigInvest.Yes.Friendly.Official.1
+(Правительство лучший инвестор! Спасибо! Ваша доля: (<Data>%))",
+CreateNewCompanyAnswer.BigInvest.No.Friendly.Official.1,,"Это слишком большая сумма для нас! Спасибо, но мы вынуждены отказаться! Ваша доля <Data>%","BigInvest.No.Friendly.Official.1
+(Это слишком большая сумма для нас! Спасибо, но мы вынуждены отказаться! Ваша доля <Data>%)",
+CreateNewCompanyAnswer.Require.Yes.Friendly.Official.1,,"Чтож, мы вполне можем развиваться вместе с правительством (<Data>%)","Require.Yes.Friendly.Official.1
+(Чтож, мы вполне можем развиваться вместе с правительством (<Data>%))",
+CreateNewCompanyAnswer.Require.No.Friendly.Official.1,,Нет! Извините но мы вне политики,"Require.No.Friendly.Official.1
+(Нет! Извините но мы вне политики)",
+CreateNewCompanyAnswer.BigRequire.Yes.Neutral.Official.1,,"Хорошо, хорошо. Как скажете, мы будем сотрудничать с правительством (<Data>%)","BigRequire.Yes.Neutral.Official.1
+(Хорошо, хорошо. Как скажете, мы будем сотрудничать с правительством (<Data>%))",
+CreateNewCompanyAnswer.BigRequire.No.Neutral.Official.1,,У вас ничего не выйдет. Досвидание,"BigRequire.No.Neutral.Official.1
+(У вас ничего не выйдет. Досвидание)",
+CreateNewCompanyAnswer.Yes.Friendly.Official.1,,Всегда знал что вы настоящий либерал!,"Yes.Friendly.Official.1
+(Всегда знал что вы настоящий либерал!)",
+CreateNewCompanyAnswer.BigYes.Friendly.Official.1,,"Это отличная помощь, спасибо!","BigYes.Friendly.Official.1
+(Это отличная помощь, спасибо!)",
+CreateNewCompanyAnswer.No.Friendly.Official.1,,"Этот бизнес как то противоречит закону? Я не знал, извините","No.Friendly.Official.1
+(Этот бизнес как то противоречит закону? Я не знал, извините)",
+CreateNewCompanyAnswer.BigNo.Neutral.Official.1,,Что опять не так? Не понимаю в чем дело,"BigNo.Neutral.Official.1
+(Что опять не так? Не понимаю в чем дело)",

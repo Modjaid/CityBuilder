@@ -1,0 +1,4482 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &131363728
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 131363732}
+  - component: {fileID: 131363731}
+  - component: {fileID: 131363730}
+  - component: {fileID: 131363729}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!65 &131363729
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131363728}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &131363730
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131363728}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &131363731
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131363728}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &131363732
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 131363728}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 80.27, y: 8.62, z: 77.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &460807832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 460807833}
+  - component: {fileID: 460807836}
+  - component: {fileID: 460807835}
+  - component: {fileID: 460807834}
+  m_Layer: 4
+  m_Name: Ocean
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460807833
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460807832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 8.8, z: 0}
+  m_LocalScale: {x: 50, y: 1, z: 50}
+  m_Children: []
+  m_Father: {fileID: 1037940338}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!64 &460807834
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460807832}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &460807835
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460807832}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: da6d124e9ed4f95449e99159463805a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &460807836
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 460807832}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &780930132
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 780930133}
+  - component: {fileID: 780930134}
+  - component: {fileID: 780930135}
+  m_Layer: 0
+  m_Name: ForeignCompany_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &780930133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780930132}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1213319558}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &780930134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780930132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 17a4d84863723864b916f178be749d86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Log: 
+  _name: "\u0410\u041E \u041C\u0430\u043A\u0434\u043E\u043D\u0430\u043B\u0434\u0441"
+  _reputation: 0
+  _age: 0
+  City: {fileID: 0}
+  Resources:
+    _list: []
+  Tax:
+    _list: []
+--- !u!114 &780930135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780930132}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76588d74f1ea7df4f9359865a76fafc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  Resources:
+  - _type: 24
+    _currentCount: 20
+    _price: 10
+--- !u!1 &963194225
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 963194228}
+  - component: {fileID: 963194227}
+  - component: {fileID: 963194226}
+  - component: {fileID: 963194229}
+  - component: {fileID: 963194230}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &963194226
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+--- !u!20 &963194227
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.1
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &963194228
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_LocalRotation: {x: 0.676197, y: 0.030909738, z: -0.028416753, w: 0.7355235}
+  m_LocalPosition: {x: 80.67242, y: 49.795227, z: 72.86107}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5cdeae4df18bc547a67a76e0ee1ca86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  target: {fileID: 131363732}
+  speed: 8
+--- !u!114 &963194230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f4f57a99a2ab964bb9861066aaf167a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  autoRotationAcceleration: 0.01
+  axisYSpeed: 10
+  speed: 0.1
+--- !u!1 &1037940335
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1037940338}
+  - component: {fileID: 1037940339}
+  - component: {fileID: 1037940336}
+  - component: {fileID: 1037940340}
+  m_Layer: 0
+  m_Name: Map
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1037940336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037940335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10d89a069c254444283d636b79c89b9a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _executors: []
+  Market: {fileID: 1037940340}
+  _mapInit: {fileID: 1037940339}
+  MainCompany: {fileID: 0}
+  _log: 
+--- !u!4 &1037940338
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037940335}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 52.431274, y: 0, z: 19.298254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1914055051}
+  - {fileID: 460807833}
+  - {fileID: 1374453653}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1037940339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037940335}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b60c0b9de985a841a63ad2602bb8f9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  terrain: {fileID: 1374453655}
+  _minAxis: 1
+  _maxAxis: 6
+  _start: {fileID: 1914055051}
+  jsonPath: C:\CityBuilder\Assets\json
+  Obstacles:
+  - x: 122
+    y: 156
+  - x: 122
+    y: 157
+  - x: 123
+    y: 152
+  - x: 123
+    y: 153
+  - x: 123
+    y: 154
+  - x: 123
+    y: 155
+  - x: 123
+    y: 156
+  - x: 123
+    y: 157
+  - x: 123
+    y: 158
+  - x: 123
+    y: 159
+  - x: 123
+    y: 160
+  - x: 123
+    y: 161
+  - x: 124
+    y: 150
+  - x: 124
+    y: 151
+  - x: 124
+    y: 152
+  - x: 124
+    y: 153
+  - x: 124
+    y: 154
+  - x: 124
+    y: 155
+  - x: 124
+    y: 156
+  - x: 124
+    y: 157
+  - x: 124
+    y: 158
+  - x: 124
+    y: 159
+  - x: 124
+    y: 160
+  - x: 124
+    y: 161
+  - x: 124
+    y: 162
+  - x: 124
+    y: 163
+  - x: 125
+    y: 147
+  - x: 125
+    y: 148
+  - x: 125
+    y: 149
+  - x: 125
+    y: 150
+  - x: 125
+    y: 151
+  - x: 125
+    y: 152
+  - x: 125
+    y: 153
+  - x: 125
+    y: 154
+  - x: 125
+    y: 155
+  - x: 125
+    y: 156
+  - x: 125
+    y: 157
+  - x: 125
+    y: 158
+  - x: 125
+    y: 159
+  - x: 125
+    y: 160
+  - x: 125
+    y: 161
+  - x: 125
+    y: 162
+  - x: 125
+    y: 163
+  - x: 125
+    y: 164
+  - x: 125
+    y: 165
+  - x: 126
+    y: 146
+  - x: 126
+    y: 147
+  - x: 126
+    y: 148
+  - x: 126
+    y: 149
+  - x: 126
+    y: 150
+  - x: 126
+    y: 151
+  - x: 126
+    y: 152
+  - x: 126
+    y: 153
+  - x: 126
+    y: 154
+  - x: 126
+    y: 155
+  - x: 126
+    y: 158
+  - x: 126
+    y: 159
+  - x: 126
+    y: 160
+  - x: 126
+    y: 161
+  - x: 126
+    y: 162
+  - x: 126
+    y: 163
+  - x: 126
+    y: 164
+  - x: 126
+    y: 165
+  - x: 126
+    y: 166
+  - x: 126
+    y: 167
+  - x: 126
+    y: 168
+  - x: 126
+    y: 169
+  - x: 127
+    y: 143
+  - x: 127
+    y: 144
+  - x: 127
+    y: 145
+  - x: 127
+    y: 146
+  - x: 127
+    y: 147
+  - x: 127
+    y: 148
+  - x: 127
+    y: 149
+  - x: 127
+    y: 150
+  - x: 127
+    y: 151
+  - x: 127
+    y: 162
+  - x: 127
+    y: 163
+  - x: 127
+    y: 164
+  - x: 127
+    y: 165
+  - x: 127
+    y: 166
+  - x: 127
+    y: 167
+  - x: 127
+    y: 168
+  - x: 127
+    y: 169
+  - x: 127
+    y: 170
+  - x: 128
+    y: 142
+  - x: 128
+    y: 143
+  - x: 128
+    y: 144
+  - x: 128
+    y: 145
+  - x: 128
+    y: 146
+  - x: 128
+    y: 147
+  - x: 128
+    y: 148
+  - x: 128
+    y: 149
+  - x: 128
+    y: 164
+  - x: 128
+    y: 165
+  - x: 128
+    y: 166
+  - x: 128
+    y: 167
+  - x: 128
+    y: 168
+  - x: 128
+    y: 169
+  - x: 128
+    y: 170
+  - x: 128
+    y: 171
+  - x: 128
+    y: 172
+  - x: 128
+    y: 173
+  - x: 129
+    y: 140
+  - x: 129
+    y: 141
+  - x: 129
+    y: 142
+  - x: 129
+    y: 143
+  - x: 129
+    y: 144
+  - x: 129
+    y: 145
+  - x: 129
+    y: 146
+  - x: 129
+    y: 166
+  - x: 129
+    y: 167
+  - x: 129
+    y: 168
+  - x: 129
+    y: 169
+  - x: 129
+    y: 170
+  - x: 129
+    y: 171
+  - x: 129
+    y: 172
+  - x: 129
+    y: 173
+  - x: 129
+    y: 174
+  - x: 130
+    y: 138
+  - x: 130
+    y: 139
+  - x: 130
+    y: 140
+  - x: 130
+    y: 141
+  - x: 130
+    y: 142
+  - x: 130
+    y: 143
+  - x: 130
+    y: 144
+  - x: 130
+    y: 145
+  - x: 130
+    y: 170
+  - x: 130
+    y: 171
+  - x: 130
+    y: 172
+  - x: 130
+    y: 173
+  - x: 130
+    y: 174
+  - x: 130
+    y: 175
+  - x: 130
+    y: 176
+  - x: 131
+    y: 136
+  - x: 131
+    y: 137
+  - x: 131
+    y: 138
+  - x: 131
+    y: 139
+  - x: 131
+    y: 140
+  - x: 131
+    y: 141
+  - x: 131
+    y: 142
+  - x: 131
+    y: 143
+  - x: 131
+    y: 171
+  - x: 131
+    y: 172
+  - x: 131
+    y: 173
+  - x: 131
+    y: 174
+  - x: 131
+    y: 175
+  - x: 131
+    y: 176
+  - x: 131
+    y: 177
+  - x: 132
+    y: 135
+  - x: 132
+    y: 136
+  - x: 132
+    y: 137
+  - x: 132
+    y: 138
+  - x: 132
+    y: 139
+  - x: 132
+    y: 140
+  - x: 132
+    y: 141
+  - x: 132
+    y: 173
+  - x: 132
+    y: 174
+  - x: 132
+    y: 175
+  - x: 132
+    y: 176
+  - x: 132
+    y: 177
+  - x: 132
+    y: 178
+  - x: 133
+    y: 132
+  - x: 133
+    y: 133
+  - x: 133
+    y: 134
+  - x: 133
+    y: 135
+  - x: 133
+    y: 136
+  - x: 133
+    y: 137
+  - x: 133
+    y: 138
+  - x: 133
+    y: 139
+  - x: 133
+    y: 174
+  - x: 133
+    y: 175
+  - x: 133
+    y: 176
+  - x: 133
+    y: 177
+  - x: 133
+    y: 178
+  - x: 133
+    y: 179
+  - x: 134
+    y: 131
+  - x: 134
+    y: 132
+  - x: 134
+    y: 133
+  - x: 134
+    y: 134
+  - x: 134
+    y: 135
+  - x: 134
+    y: 136
+  - x: 134
+    y: 137
+  - x: 134
+    y: 138
+  - x: 134
+    y: 175
+  - x: 134
+    y: 176
+  - x: 134
+    y: 177
+  - x: 134
+    y: 178
+  - x: 134
+    y: 179
+  - x: 134
+    y: 180
+  - x: 135
+    y: 130
+  - x: 135
+    y: 131
+  - x: 135
+    y: 132
+  - x: 135
+    y: 133
+  - x: 135
+    y: 134
+  - x: 135
+    y: 135
+  - x: 135
+    y: 177
+  - x: 135
+    y: 178
+  - x: 135
+    y: 179
+  - x: 135
+    y: 180
+  - x: 135
+    y: 181
+  - x: 136
+    y: 129
+  - x: 136
+    y: 130
+  - x: 136
+    y: 131
+  - x: 136
+    y: 132
+  - x: 136
+    y: 133
+  - x: 136
+    y: 134
+  - x: 136
+    y: 152
+  - x: 136
+    y: 153
+  - x: 136
+    y: 154
+  - x: 136
+    y: 155
+  - x: 136
+    y: 156
+  - x: 136
+    y: 157
+  - x: 136
+    y: 158
+  - x: 136
+    y: 159
+  - x: 136
+    y: 160
+  - x: 136
+    y: 161
+  - x: 136
+    y: 162
+  - x: 136
+    y: 163
+  - x: 136
+    y: 164
+  - x: 136
+    y: 165
+  - x: 136
+    y: 178
+  - x: 136
+    y: 179
+  - x: 136
+    y: 180
+  - x: 136
+    y: 181
+  - x: 137
+    y: 128
+  - x: 137
+    y: 129
+  - x: 137
+    y: 130
+  - x: 137
+    y: 131
+  - x: 137
+    y: 132
+  - x: 137
+    y: 133
+  - x: 137
+    y: 150
+  - x: 137
+    y: 151
+  - x: 137
+    y: 152
+  - x: 137
+    y: 153
+  - x: 137
+    y: 154
+  - x: 137
+    y: 155
+  - x: 137
+    y: 156
+  - x: 137
+    y: 157
+  - x: 137
+    y: 158
+  - x: 137
+    y: 159
+  - x: 137
+    y: 160
+  - x: 137
+    y: 161
+  - x: 137
+    y: 162
+  - x: 137
+    y: 163
+  - x: 137
+    y: 164
+  - x: 137
+    y: 165
+  - x: 137
+    y: 166
+  - x: 137
+    y: 167
+  - x: 137
+    y: 178
+  - x: 137
+    y: 179
+  - x: 137
+    y: 180
+  - x: 137
+    y: 181
+  - x: 137
+    y: 182
+  - x: 138
+    y: 127
+  - x: 138
+    y: 128
+  - x: 138
+    y: 129
+  - x: 138
+    y: 130
+  - x: 138
+    y: 131
+  - x: 138
+    y: 150
+  - x: 138
+    y: 151
+  - x: 138
+    y: 152
+  - x: 138
+    y: 153
+  - x: 138
+    y: 154
+  - x: 138
+    y: 155
+  - x: 138
+    y: 156
+  - x: 138
+    y: 157
+  - x: 138
+    y: 158
+  - x: 138
+    y: 159
+  - x: 138
+    y: 160
+  - x: 138
+    y: 161
+  - x: 138
+    y: 162
+  - x: 138
+    y: 163
+  - x: 138
+    y: 164
+  - x: 138
+    y: 165
+  - x: 138
+    y: 166
+  - x: 138
+    y: 167
+  - x: 138
+    y: 168
+  - x: 138
+    y: 179
+  - x: 138
+    y: 180
+  - x: 138
+    y: 181
+  - x: 138
+    y: 182
+  - x: 139
+    y: 126
+  - x: 139
+    y: 127
+  - x: 139
+    y: 128
+  - x: 139
+    y: 129
+  - x: 139
+    y: 130
+  - x: 139
+    y: 131
+  - x: 139
+    y: 148
+  - x: 139
+    y: 149
+  - x: 139
+    y: 150
+  - x: 139
+    y: 151
+  - x: 139
+    y: 152
+  - x: 139
+    y: 153
+  - x: 139
+    y: 154
+  - x: 139
+    y: 155
+  - x: 139
+    y: 156
+  - x: 139
+    y: 157
+  - x: 139
+    y: 158
+  - x: 139
+    y: 159
+  - x: 139
+    y: 160
+  - x: 139
+    y: 161
+  - x: 139
+    y: 162
+  - x: 139
+    y: 163
+  - x: 139
+    y: 164
+  - x: 139
+    y: 165
+  - x: 139
+    y: 166
+  - x: 139
+    y: 167
+  - x: 139
+    y: 168
+  - x: 139
+    y: 169
+  - x: 139
+    y: 180
+  - x: 139
+    y: 181
+  - x: 139
+    y: 182
+  - x: 139
+    y: 183
+  - x: 140
+    y: 126
+  - x: 140
+    y: 127
+  - x: 140
+    y: 128
+  - x: 140
+    y: 129
+  - x: 140
+    y: 130
+  - x: 140
+    y: 147
+  - x: 140
+    y: 148
+  - x: 140
+    y: 149
+  - x: 140
+    y: 150
+  - x: 140
+    y: 151
+  - x: 140
+    y: 152
+  - x: 140
+    y: 153
+  - x: 140
+    y: 165
+  - x: 140
+    y: 166
+  - x: 140
+    y: 167
+  - x: 140
+    y: 168
+  - x: 140
+    y: 169
+  - x: 140
+    y: 180
+  - x: 140
+    y: 181
+  - x: 140
+    y: 182
+  - x: 140
+    y: 183
+  - x: 141
+    y: 126
+  - x: 141
+    y: 127
+  - x: 141
+    y: 128
+  - x: 141
+    y: 129
+  - x: 141
+    y: 147
+  - x: 141
+    y: 148
+  - x: 141
+    y: 149
+  - x: 141
+    y: 150
+  - x: 141
+    y: 151
+  - x: 141
+    y: 166
+  - x: 141
+    y: 167
+  - x: 141
+    y: 168
+  - x: 141
+    y: 169
+  - x: 141
+    y: 181
+  - x: 141
+    y: 182
+  - x: 141
+    y: 183
+  - x: 141
+    y: 184
+  - x: 142
+    y: 124
+  - x: 142
+    y: 125
+  - x: 142
+    y: 126
+  - x: 142
+    y: 127
+  - x: 142
+    y: 128
+  - x: 142
+    y: 146
+  - x: 142
+    y: 147
+  - x: 142
+    y: 148
+  - x: 142
+    y: 149
+  - x: 142
+    y: 150
+  - x: 142
+    y: 166
+  - x: 142
+    y: 167
+  - x: 142
+    y: 168
+  - x: 142
+    y: 169
+  - x: 142
+    y: 181
+  - x: 142
+    y: 182
+  - x: 142
+    y: 183
+  - x: 142
+    y: 184
+  - x: 143
+    y: 124
+  - x: 143
+    y: 125
+  - x: 143
+    y: 126
+  - x: 143
+    y: 127
+  - x: 143
+    y: 146
+  - x: 143
+    y: 147
+  - x: 143
+    y: 148
+  - x: 143
+    y: 149
+  - x: 143
+    y: 166
+  - x: 143
+    y: 167
+  - x: 143
+    y: 168
+  - x: 143
+    y: 169
+  - x: 143
+    y: 182
+  - x: 143
+    y: 183
+  - x: 143
+    y: 184
+  - x: 143
+    y: 185
+  - x: 144
+    y: 124
+  - x: 144
+    y: 125
+  - x: 144
+    y: 126
+  - x: 144
+    y: 127
+  - x: 144
+    y: 146
+  - x: 144
+    y: 147
+  - x: 144
+    y: 148
+  - x: 144
+    y: 149
+  - x: 144
+    y: 166
+  - x: 144
+    y: 167
+  - x: 144
+    y: 168
+  - x: 144
+    y: 169
+  - x: 144
+    y: 182
+  - x: 144
+    y: 183
+  - x: 144
+    y: 184
+  - x: 144
+    y: 185
+  - x: 145
+    y: 123
+  - x: 145
+    y: 124
+  - x: 145
+    y: 125
+  - x: 145
+    y: 126
+  - x: 145
+    y: 127
+  - x: 145
+    y: 146
+  - x: 145
+    y: 147
+  - x: 145
+    y: 148
+  - x: 145
+    y: 149
+  - x: 145
+    y: 166
+  - x: 145
+    y: 167
+  - x: 145
+    y: 168
+  - x: 145
+    y: 169
+  - x: 145
+    y: 182
+  - x: 145
+    y: 183
+  - x: 145
+    y: 184
+  - x: 145
+    y: 185
+  - x: 146
+    y: 122
+  - x: 146
+    y: 123
+  - x: 146
+    y: 124
+  - x: 146
+    y: 125
+  - x: 146
+    y: 146
+  - x: 146
+    y: 147
+  - x: 146
+    y: 148
+  - x: 146
+    y: 149
+  - x: 146
+    y: 166
+  - x: 146
+    y: 167
+  - x: 146
+    y: 168
+  - x: 146
+    y: 169
+  - x: 146
+    y: 182
+  - x: 146
+    y: 183
+  - x: 146
+    y: 184
+  - x: 146
+    y: 185
+  - x: 147
+    y: 122
+  - x: 147
+    y: 123
+  - x: 147
+    y: 124
+  - x: 147
+    y: 125
+  - x: 147
+    y: 146
+  - x: 147
+    y: 147
+  - x: 147
+    y: 148
+  - x: 147
+    y: 149
+  - x: 147
+    y: 166
+  - x: 147
+    y: 167
+  - x: 147
+    y: 168
+  - x: 147
+    y: 169
+  - x: 147
+    y: 183
+  - x: 147
+    y: 184
+  - x: 147
+    y: 185
+  - x: 147
+    y: 186
+  - x: 148
+    y: 121
+  - x: 148
+    y: 122
+  - x: 148
+    y: 123
+  - x: 148
+    y: 124
+  - x: 148
+    y: 125
+  - x: 148
+    y: 132
+  - x: 148
+    y: 133
+  - x: 148
+    y: 134
+  - x: 148
+    y: 135
+  - x: 148
+    y: 136
+  - x: 148
+    y: 137
+  - x: 148
+    y: 146
+  - x: 148
+    y: 147
+  - x: 148
+    y: 148
+  - x: 148
+    y: 149
+  - x: 148
+    y: 166
+  - x: 148
+    y: 167
+  - x: 148
+    y: 168
+  - x: 148
+    y: 169
+  - x: 148
+    y: 183
+  - x: 148
+    y: 184
+  - x: 148
+    y: 185
+  - x: 148
+    y: 186
+  - x: 149
+    y: 121
+  - x: 149
+    y: 122
+  - x: 149
+    y: 123
+  - x: 149
+    y: 124
+  - x: 149
+    y: 132
+  - x: 149
+    y: 133
+  - x: 149
+    y: 134
+  - x: 149
+    y: 135
+  - x: 149
+    y: 136
+  - x: 149
+    y: 137
+  - x: 149
+    y: 138
+  - x: 149
+    y: 146
+  - x: 149
+    y: 147
+  - x: 149
+    y: 148
+  - x: 149
+    y: 149
+  - x: 149
+    y: 150
+  - x: 149
+    y: 166
+  - x: 149
+    y: 167
+  - x: 149
+    y: 168
+  - x: 149
+    y: 169
+  - x: 149
+    y: 184
+  - x: 149
+    y: 185
+  - x: 149
+    y: 186
+  - x: 149
+    y: 187
+  - x: 150
+    y: 121
+  - x: 150
+    y: 122
+  - x: 150
+    y: 123
+  - x: 150
+    y: 124
+  - x: 150
+    y: 131
+  - x: 150
+    y: 132
+  - x: 150
+    y: 133
+  - x: 150
+    y: 134
+  - x: 150
+    y: 135
+  - x: 150
+    y: 136
+  - x: 150
+    y: 137
+  - x: 150
+    y: 138
+  - x: 150
+    y: 146
+  - x: 150
+    y: 147
+  - x: 150
+    y: 148
+  - x: 150
+    y: 149
+  - x: 150
+    y: 150
+  - x: 150
+    y: 151
+  - x: 150
+    y: 152
+  - x: 150
+    y: 153
+  - x: 150
+    y: 154
+  - x: 150
+    y: 155
+  - x: 150
+    y: 156
+  - x: 150
+    y: 166
+  - x: 150
+    y: 167
+  - x: 150
+    y: 168
+  - x: 150
+    y: 169
+  - x: 150
+    y: 184
+  - x: 150
+    y: 185
+  - x: 150
+    y: 186
+  - x: 150
+    y: 187
+  - x: 151
+    y: 121
+  - x: 151
+    y: 122
+  - x: 151
+    y: 123
+  - x: 151
+    y: 124
+  - x: 151
+    y: 131
+  - x: 151
+    y: 132
+  - x: 151
+    y: 133
+  - x: 151
+    y: 134
+  - x: 151
+    y: 135
+  - x: 151
+    y: 136
+  - x: 151
+    y: 137
+  - x: 151
+    y: 138
+  - x: 151
+    y: 146
+  - x: 151
+    y: 147
+  - x: 151
+    y: 148
+  - x: 151
+    y: 149
+  - x: 151
+    y: 150
+  - x: 151
+    y: 151
+  - x: 151
+    y: 152
+  - x: 151
+    y: 153
+  - x: 151
+    y: 154
+  - x: 151
+    y: 155
+  - x: 151
+    y: 156
+  - x: 151
+    y: 157
+  - x: 151
+    y: 158
+  - x: 151
+    y: 159
+  - x: 151
+    y: 160
+  - x: 151
+    y: 161
+  - x: 151
+    y: 162
+  - x: 151
+    y: 163
+  - x: 151
+    y: 164
+  - x: 151
+    y: 165
+  - x: 151
+    y: 166
+  - x: 151
+    y: 167
+  - x: 151
+    y: 168
+  - x: 151
+    y: 169
+  - x: 151
+    y: 185
+  - x: 151
+    y: 186
+  - x: 151
+    y: 187
+  - x: 151
+    y: 188
+  - x: 152
+    y: 121
+  - x: 152
+    y: 122
+  - x: 152
+    y: 123
+  - x: 152
+    y: 124
+  - x: 152
+    y: 131
+  - x: 152
+    y: 132
+  - x: 152
+    y: 133
+  - x: 152
+    y: 134
+  - x: 152
+    y: 135
+  - x: 152
+    y: 136
+  - x: 152
+    y: 137
+  - x: 152
+    y: 138
+  - x: 152
+    y: 139
+  - x: 152
+    y: 147
+  - x: 152
+    y: 148
+  - x: 152
+    y: 149
+  - x: 152
+    y: 150
+  - x: 152
+    y: 151
+  - x: 152
+    y: 152
+  - x: 152
+    y: 153
+  - x: 152
+    y: 154
+  - x: 152
+    y: 155
+  - x: 152
+    y: 156
+  - x: 152
+    y: 157
+  - x: 152
+    y: 158
+  - x: 152
+    y: 159
+  - x: 152
+    y: 160
+  - x: 152
+    y: 161
+  - x: 152
+    y: 162
+  - x: 152
+    y: 163
+  - x: 152
+    y: 164
+  - x: 152
+    y: 165
+  - x: 152
+    y: 166
+  - x: 152
+    y: 167
+  - x: 152
+    y: 168
+  - x: 152
+    y: 169
+  - x: 152
+    y: 185
+  - x: 152
+    y: 186
+  - x: 152
+    y: 187
+  - x: 152
+    y: 188
+  - x: 153
+    y: 121
+  - x: 153
+    y: 122
+  - x: 153
+    y: 123
+  - x: 153
+    y: 124
+  - x: 153
+    y: 131
+  - x: 153
+    y: 132
+  - x: 153
+    y: 133
+  - x: 153
+    y: 134
+  - x: 153
+    y: 135
+  - x: 153
+    y: 136
+  - x: 153
+    y: 137
+  - x: 153
+    y: 138
+  - x: 153
+    y: 151
+  - x: 153
+    y: 152
+  - x: 153
+    y: 153
+  - x: 153
+    y: 154
+  - x: 153
+    y: 155
+  - x: 153
+    y: 156
+  - x: 153
+    y: 157
+  - x: 153
+    y: 158
+  - x: 153
+    y: 159
+  - x: 153
+    y: 160
+  - x: 153
+    y: 161
+  - x: 153
+    y: 162
+  - x: 153
+    y: 163
+  - x: 153
+    y: 164
+  - x: 153
+    y: 165
+  - x: 153
+    y: 166
+  - x: 153
+    y: 167
+  - x: 153
+    y: 168
+  - x: 153
+    y: 185
+  - x: 153
+    y: 186
+  - x: 153
+    y: 187
+  - x: 153
+    y: 188
+  - x: 154
+    y: 120
+  - x: 154
+    y: 121
+  - x: 154
+    y: 122
+  - x: 154
+    y: 123
+  - x: 154
+    y: 131
+  - x: 154
+    y: 132
+  - x: 154
+    y: 133
+  - x: 154
+    y: 134
+  - x: 154
+    y: 135
+  - x: 154
+    y: 136
+  - x: 154
+    y: 137
+  - x: 154
+    y: 138
+  - x: 154
+    y: 139
+  - x: 154
+    y: 157
+  - x: 154
+    y: 158
+  - x: 154
+    y: 159
+  - x: 154
+    y: 160
+  - x: 154
+    y: 161
+  - x: 154
+    y: 162
+  - x: 154
+    y: 163
+  - x: 154
+    y: 164
+  - x: 154
+    y: 165
+  - x: 154
+    y: 166
+  - x: 154
+    y: 167
+  - x: 154
+    y: 185
+  - x: 154
+    y: 186
+  - x: 154
+    y: 187
+  - x: 154
+    y: 188
+  - x: 155
+    y: 120
+  - x: 155
+    y: 121
+  - x: 155
+    y: 122
+  - x: 155
+    y: 123
+  - x: 155
+    y: 131
+  - x: 155
+    y: 132
+  - x: 155
+    y: 133
+  - x: 155
+    y: 134
+  - x: 155
+    y: 135
+  - x: 155
+    y: 136
+  - x: 155
+    y: 137
+  - x: 155
+    y: 138
+  - x: 155
+    y: 185
+  - x: 155
+    y: 186
+  - x: 155
+    y: 187
+  - x: 155
+    y: 188
+  - x: 156
+    y: 120
+  - x: 156
+    y: 121
+  - x: 156
+    y: 122
+  - x: 156
+    y: 123
+  - x: 156
+    y: 131
+  - x: 156
+    y: 132
+  - x: 156
+    y: 133
+  - x: 156
+    y: 134
+  - x: 156
+    y: 135
+  - x: 156
+    y: 136
+  - x: 156
+    y: 137
+  - x: 156
+    y: 138
+  - x: 156
+    y: 139
+  - x: 156
+    y: 185
+  - x: 156
+    y: 186
+  - x: 156
+    y: 187
+  - x: 156
+    y: 188
+  - x: 157
+    y: 120
+  - x: 157
+    y: 121
+  - x: 157
+    y: 122
+  - x: 157
+    y: 123
+  - x: 157
+    y: 131
+  - x: 157
+    y: 132
+  - x: 157
+    y: 133
+  - x: 157
+    y: 134
+  - x: 157
+    y: 135
+  - x: 157
+    y: 136
+  - x: 157
+    y: 185
+  - x: 157
+    y: 186
+  - x: 157
+    y: 187
+  - x: 157
+    y: 188
+  - x: 158
+    y: 120
+  - x: 158
+    y: 121
+  - x: 158
+    y: 122
+  - x: 158
+    y: 123
+  - x: 158
+    y: 185
+  - x: 158
+    y: 186
+  - x: 158
+    y: 187
+  - x: 158
+    y: 188
+  - x: 159
+    y: 120
+  - x: 159
+    y: 121
+  - x: 159
+    y: 122
+  - x: 159
+    y: 123
+  - x: 159
+    y: 185
+  - x: 159
+    y: 186
+  - x: 159
+    y: 187
+  - x: 159
+    y: 188
+  - x: 160
+    y: 120
+  - x: 160
+    y: 121
+  - x: 160
+    y: 122
+  - x: 160
+    y: 123
+  - x: 160
+    y: 185
+  - x: 160
+    y: 186
+  - x: 160
+    y: 187
+  - x: 160
+    y: 188
+  - x: 161
+    y: 120
+  - x: 161
+    y: 121
+  - x: 161
+    y: 122
+  - x: 161
+    y: 123
+  - x: 161
+    y: 185
+  - x: 161
+    y: 186
+  - x: 161
+    y: 187
+  - x: 161
+    y: 188
+  - x: 162
+    y: 120
+  - x: 162
+    y: 121
+  - x: 162
+    y: 122
+  - x: 162
+    y: 123
+  - x: 162
+    y: 185
+  - x: 162
+    y: 186
+  - x: 162
+    y: 187
+  - x: 162
+    y: 188
+  - x: 163
+    y: 121
+  - x: 163
+    y: 122
+  - x: 163
+    y: 123
+  - x: 163
+    y: 124
+  - x: 163
+    y: 185
+  - x: 163
+    y: 186
+  - x: 163
+    y: 187
+  - x: 163
+    y: 188
+  - x: 164
+    y: 121
+  - x: 164
+    y: 122
+  - x: 164
+    y: 123
+  - x: 164
+    y: 124
+  - x: 164
+    y: 185
+  - x: 164
+    y: 186
+  - x: 164
+    y: 187
+  - x: 164
+    y: 188
+  - x: 165
+    y: 121
+  - x: 165
+    y: 122
+  - x: 165
+    y: 123
+  - x: 165
+    y: 124
+  - x: 165
+    y: 135
+  - x: 165
+    y: 136
+  - x: 165
+    y: 137
+  - x: 165
+    y: 138
+  - x: 165
+    y: 139
+  - x: 165
+    y: 140
+  - x: 165
+    y: 141
+  - x: 165
+    y: 156
+  - x: 165
+    y: 157
+  - x: 165
+    y: 158
+  - x: 165
+    y: 159
+  - x: 165
+    y: 160
+  - x: 165
+    y: 161
+  - x: 165
+    y: 162
+  - x: 165
+    y: 163
+  - x: 165
+    y: 164
+  - x: 165
+    y: 165
+  - x: 165
+    y: 166
+  - x: 165
+    y: 167
+  - x: 165
+    y: 185
+  - x: 165
+    y: 186
+  - x: 165
+    y: 187
+  - x: 165
+    y: 188
+  - x: 166
+    y: 121
+  - x: 166
+    y: 122
+  - x: 166
+    y: 123
+  - x: 166
+    y: 124
+  - x: 166
+    y: 132
+  - x: 166
+    y: 133
+  - x: 166
+    y: 134
+  - x: 166
+    y: 135
+  - x: 166
+    y: 136
+  - x: 166
+    y: 137
+  - x: 166
+    y: 138
+  - x: 166
+    y: 139
+  - x: 166
+    y: 140
+  - x: 166
+    y: 141
+  - x: 166
+    y: 142
+  - x: 166
+    y: 143
+  - x: 166
+    y: 153
+  - x: 166
+    y: 154
+  - x: 166
+    y: 155
+  - x: 166
+    y: 156
+  - x: 166
+    y: 157
+  - x: 166
+    y: 158
+  - x: 166
+    y: 159
+  - x: 166
+    y: 160
+  - x: 166
+    y: 161
+  - x: 166
+    y: 162
+  - x: 166
+    y: 163
+  - x: 166
+    y: 164
+  - x: 166
+    y: 165
+  - x: 166
+    y: 166
+  - x: 166
+    y: 167
+  - x: 166
+    y: 168
+  - x: 166
+    y: 185
+  - x: 166
+    y: 186
+  - x: 166
+    y: 187
+  - x: 166
+    y: 188
+  - x: 167
+    y: 121
+  - x: 167
+    y: 122
+  - x: 167
+    y: 123
+  - x: 167
+    y: 124
+  - x: 167
+    y: 132
+  - x: 167
+    y: 133
+  - x: 167
+    y: 134
+  - x: 167
+    y: 135
+  - x: 167
+    y: 136
+  - x: 167
+    y: 137
+  - x: 167
+    y: 138
+  - x: 167
+    y: 139
+  - x: 167
+    y: 140
+  - x: 167
+    y: 141
+  - x: 167
+    y: 142
+  - x: 167
+    y: 143
+  - x: 167
+    y: 152
+  - x: 167
+    y: 153
+  - x: 167
+    y: 154
+  - x: 167
+    y: 155
+  - x: 167
+    y: 156
+  - x: 167
+    y: 157
+  - x: 167
+    y: 158
+  - x: 167
+    y: 159
+  - x: 167
+    y: 160
+  - x: 167
+    y: 161
+  - x: 167
+    y: 162
+  - x: 167
+    y: 163
+  - x: 167
+    y: 164
+  - x: 167
+    y: 165
+  - x: 167
+    y: 166
+  - x: 167
+    y: 167
+  - x: 167
+    y: 168
+  - x: 167
+    y: 169
+  - x: 167
+    y: 185
+  - x: 167
+    y: 186
+  - x: 167
+    y: 187
+  - x: 167
+    y: 188
+  - x: 168
+    y: 121
+  - x: 168
+    y: 122
+  - x: 168
+    y: 123
+  - x: 168
+    y: 124
+  - x: 168
+    y: 132
+  - x: 168
+    y: 133
+  - x: 168
+    y: 134
+  - x: 168
+    y: 135
+  - x: 168
+    y: 136
+  - x: 168
+    y: 137
+  - x: 168
+    y: 138
+  - x: 168
+    y: 139
+  - x: 168
+    y: 140
+  - x: 168
+    y: 141
+  - x: 168
+    y: 142
+  - x: 168
+    y: 143
+  - x: 168
+    y: 151
+  - x: 168
+    y: 152
+  - x: 168
+    y: 153
+  - x: 168
+    y: 154
+  - x: 168
+    y: 155
+  - x: 168
+    y: 156
+  - x: 168
+    y: 157
+  - x: 168
+    y: 158
+  - x: 168
+    y: 159
+  - x: 168
+    y: 160
+  - x: 168
+    y: 161
+  - x: 168
+    y: 162
+  - x: 168
+    y: 163
+  - x: 168
+    y: 164
+  - x: 168
+    y: 165
+  - x: 168
+    y: 166
+  - x: 168
+    y: 167
+  - x: 168
+    y: 168
+  - x: 168
+    y: 169
+  - x: 168
+    y: 185
+  - x: 168
+    y: 186
+  - x: 168
+    y: 187
+  - x: 168
+    y: 188
+  - x: 169
+    y: 122
+  - x: 169
+    y: 123
+  - x: 169
+    y: 124
+  - x: 169
+    y: 125
+  - x: 169
+    y: 132
+  - x: 169
+    y: 133
+  - x: 169
+    y: 134
+  - x: 169
+    y: 135
+  - x: 169
+    y: 136
+  - x: 169
+    y: 138
+  - x: 169
+    y: 140
+  - x: 169
+    y: 141
+  - x: 169
+    y: 142
+  - x: 169
+    y: 143
+  - x: 169
+    y: 150
+  - x: 169
+    y: 151
+  - x: 169
+    y: 152
+  - x: 169
+    y: 153
+  - x: 169
+    y: 154
+  - x: 169
+    y: 155
+  - x: 169
+    y: 166
+  - x: 169
+    y: 167
+  - x: 169
+    y: 168
+  - x: 169
+    y: 169
+  - x: 169
+    y: 184
+  - x: 169
+    y: 185
+  - x: 169
+    y: 186
+  - x: 169
+    y: 187
+  - x: 170
+    y: 122
+  - x: 170
+    y: 123
+  - x: 170
+    y: 124
+  - x: 170
+    y: 125
+  - x: 170
+    y: 132
+  - x: 170
+    y: 133
+  - x: 170
+    y: 134
+  - x: 170
+    y: 135
+  - x: 170
+    y: 140
+  - x: 170
+    y: 141
+  - x: 170
+    y: 142
+  - x: 170
+    y: 143
+  - x: 170
+    y: 148
+  - x: 170
+    y: 149
+  - x: 170
+    y: 150
+  - x: 170
+    y: 151
+  - x: 170
+    y: 152
+  - x: 170
+    y: 153
+  - x: 170
+    y: 154
+  - x: 170
+    y: 167
+  - x: 170
+    y: 168
+  - x: 170
+    y: 169
+  - x: 170
+    y: 170
+  - x: 170
+    y: 184
+  - x: 170
+    y: 185
+  - x: 170
+    y: 186
+  - x: 170
+    y: 187
+  - x: 171
+    y: 122
+  - x: 171
+    y: 123
+  - x: 171
+    y: 124
+  - x: 171
+    y: 125
+  - x: 171
+    y: 132
+  - x: 171
+    y: 133
+  - x: 171
+    y: 134
+  - x: 171
+    y: 135
+  - x: 171
+    y: 136
+  - x: 171
+    y: 138
+  - x: 171
+    y: 139
+  - x: 171
+    y: 140
+  - x: 171
+    y: 141
+  - x: 171
+    y: 142
+  - x: 171
+    y: 143
+  - x: 171
+    y: 148
+  - x: 171
+    y: 149
+  - x: 171
+    y: 150
+  - x: 171
+    y: 151
+  - x: 171
+    y: 152
+  - x: 171
+    y: 153
+  - x: 171
+    y: 167
+  - x: 171
+    y: 168
+  - x: 171
+    y: 169
+  - x: 171
+    y: 170
+  - x: 171
+    y: 184
+  - x: 171
+    y: 185
+  - x: 171
+    y: 186
+  - x: 171
+    y: 187
+  - x: 172
+    y: 123
+  - x: 172
+    y: 124
+  - x: 172
+    y: 125
+  - x: 172
+    y: 126
+  - x: 172
+    y: 132
+  - x: 172
+    y: 133
+  - x: 172
+    y: 134
+  - x: 172
+    y: 135
+  - x: 172
+    y: 136
+  - x: 172
+    y: 137
+  - x: 172
+    y: 138
+  - x: 172
+    y: 139
+  - x: 172
+    y: 140
+  - x: 172
+    y: 141
+  - x: 172
+    y: 142
+  - x: 172
+    y: 147
+  - x: 172
+    y: 148
+  - x: 172
+    y: 149
+  - x: 172
+    y: 150
+  - x: 172
+    y: 151
+  - x: 172
+    y: 167
+  - x: 172
+    y: 168
+  - x: 172
+    y: 169
+  - x: 172
+    y: 170
+  - x: 172
+    y: 183
+  - x: 172
+    y: 184
+  - x: 172
+    y: 185
+  - x: 172
+    y: 186
+  - x: 173
+    y: 123
+  - x: 173
+    y: 124
+  - x: 173
+    y: 125
+  - x: 173
+    y: 126
+  - x: 173
+    y: 133
+  - x: 173
+    y: 134
+  - x: 173
+    y: 135
+  - x: 173
+    y: 136
+  - x: 173
+    y: 137
+  - x: 173
+    y: 138
+  - x: 173
+    y: 139
+  - x: 173
+    y: 140
+  - x: 173
+    y: 141
+  - x: 173
+    y: 147
+  - x: 173
+    y: 148
+  - x: 173
+    y: 149
+  - x: 173
+    y: 150
+  - x: 173
+    y: 151
+  - x: 173
+    y: 167
+  - x: 173
+    y: 168
+  - x: 173
+    y: 169
+  - x: 173
+    y: 170
+  - x: 173
+    y: 183
+  - x: 173
+    y: 184
+  - x: 173
+    y: 185
+  - x: 173
+    y: 186
+  - x: 174
+    y: 124
+  - x: 174
+    y: 125
+  - x: 174
+    y: 126
+  - x: 174
+    y: 127
+  - x: 174
+    y: 134
+  - x: 174
+    y: 135
+  - x: 174
+    y: 136
+  - x: 174
+    y: 137
+  - x: 174
+    y: 138
+  - x: 174
+    y: 139
+  - x: 174
+    y: 140
+  - x: 174
+    y: 141
+  - x: 174
+    y: 147
+  - x: 174
+    y: 148
+  - x: 174
+    y: 149
+  - x: 174
+    y: 150
+  - x: 174
+    y: 167
+  - x: 174
+    y: 168
+  - x: 174
+    y: 169
+  - x: 174
+    y: 170
+  - x: 174
+    y: 183
+  - x: 174
+    y: 184
+  - x: 174
+    y: 185
+  - x: 174
+    y: 186
+  - x: 175
+    y: 124
+  - x: 175
+    y: 125
+  - x: 175
+    y: 126
+  - x: 175
+    y: 127
+  - x: 175
+    y: 135
+  - x: 175
+    y: 136
+  - x: 175
+    y: 137
+  - x: 175
+    y: 138
+  - x: 175
+    y: 139
+  - x: 175
+    y: 140
+  - x: 175
+    y: 146
+  - x: 175
+    y: 147
+  - x: 175
+    y: 148
+  - x: 175
+    y: 149
+  - x: 175
+    y: 167
+  - x: 175
+    y: 168
+  - x: 175
+    y: 169
+  - x: 175
+    y: 170
+  - x: 175
+    y: 183
+  - x: 175
+    y: 184
+  - x: 175
+    y: 185
+  - x: 175
+    y: 186
+  - x: 176
+    y: 125
+  - x: 176
+    y: 126
+  - x: 176
+    y: 127
+  - x: 176
+    y: 128
+  - x: 176
+    y: 146
+  - x: 176
+    y: 147
+  - x: 176
+    y: 148
+  - x: 176
+    y: 149
+  - x: 176
+    y: 167
+  - x: 176
+    y: 168
+  - x: 176
+    y: 169
+  - x: 176
+    y: 170
+  - x: 176
+    y: 182
+  - x: 176
+    y: 183
+  - x: 176
+    y: 184
+  - x: 176
+    y: 185
+  - x: 177
+    y: 125
+  - x: 177
+    y: 126
+  - x: 177
+    y: 127
+  - x: 177
+    y: 128
+  - x: 177
+    y: 146
+  - x: 177
+    y: 147
+  - x: 177
+    y: 148
+  - x: 177
+    y: 149
+  - x: 177
+    y: 167
+  - x: 177
+    y: 168
+  - x: 177
+    y: 169
+  - x: 177
+    y: 170
+  - x: 177
+    y: 182
+  - x: 177
+    y: 183
+  - x: 177
+    y: 184
+  - x: 177
+    y: 185
+  - x: 178
+    y: 126
+  - x: 178
+    y: 127
+  - x: 178
+    y: 128
+  - x: 178
+    y: 129
+  - x: 178
+    y: 146
+  - x: 178
+    y: 147
+  - x: 178
+    y: 148
+  - x: 178
+    y: 149
+  - x: 178
+    y: 167
+  - x: 178
+    y: 168
+  - x: 178
+    y: 169
+  - x: 178
+    y: 170
+  - x: 178
+    y: 182
+  - x: 178
+    y: 183
+  - x: 178
+    y: 184
+  - x: 178
+    y: 185
+  - x: 179
+    y: 126
+  - x: 179
+    y: 127
+  - x: 179
+    y: 128
+  - x: 179
+    y: 129
+  - x: 179
+    y: 146
+  - x: 179
+    y: 147
+  - x: 179
+    y: 148
+  - x: 179
+    y: 149
+  - x: 179
+    y: 166
+  - x: 179
+    y: 167
+  - x: 179
+    y: 168
+  - x: 179
+    y: 169
+  - x: 179
+    y: 170
+  - x: 179
+    y: 181
+  - x: 179
+    y: 182
+  - x: 179
+    y: 183
+  - x: 179
+    y: 184
+  - x: 180
+    y: 126
+  - x: 180
+    y: 127
+  - x: 180
+    y: 128
+  - x: 180
+    y: 129
+  - x: 180
+    y: 146
+  - x: 180
+    y: 147
+  - x: 180
+    y: 148
+  - x: 180
+    y: 149
+  - x: 180
+    y: 166
+  - x: 180
+    y: 167
+  - x: 180
+    y: 168
+  - x: 180
+    y: 169
+  - x: 180
+    y: 170
+  - x: 180
+    y: 180
+  - x: 180
+    y: 181
+  - x: 180
+    y: 182
+  - x: 180
+    y: 183
+  - x: 181
+    y: 127
+  - x: 181
+    y: 128
+  - x: 181
+    y: 129
+  - x: 181
+    y: 130
+  - x: 181
+    y: 131
+  - x: 181
+    y: 146
+  - x: 181
+    y: 147
+  - x: 181
+    y: 148
+  - x: 181
+    y: 149
+  - x: 181
+    y: 150
+  - x: 181
+    y: 151
+  - x: 181
+    y: 152
+  - x: 181
+    y: 162
+  - x: 181
+    y: 163
+  - x: 181
+    y: 164
+  - x: 181
+    y: 165
+  - x: 181
+    y: 166
+  - x: 181
+    y: 167
+  - x: 181
+    y: 168
+  - x: 181
+    y: 169
+  - x: 181
+    y: 180
+  - x: 181
+    y: 181
+  - x: 181
+    y: 182
+  - x: 181
+    y: 183
+  - x: 182
+    y: 127
+  - x: 182
+    y: 128
+  - x: 182
+    y: 129
+  - x: 182
+    y: 130
+  - x: 182
+    y: 131
+  - x: 182
+    y: 132
+  - x: 182
+    y: 133
+  - x: 182
+    y: 146
+  - x: 182
+    y: 147
+  - x: 182
+    y: 148
+  - x: 182
+    y: 149
+  - x: 182
+    y: 150
+  - x: 182
+    y: 151
+  - x: 182
+    y: 152
+  - x: 182
+    y: 153
+  - x: 182
+    y: 154
+  - x: 182
+    y: 155
+  - x: 182
+    y: 156
+  - x: 182
+    y: 157
+  - x: 182
+    y: 158
+  - x: 182
+    y: 159
+  - x: 182
+    y: 160
+  - x: 182
+    y: 161
+  - x: 182
+    y: 162
+  - x: 182
+    y: 163
+  - x: 182
+    y: 164
+  - x: 182
+    y: 165
+  - x: 182
+    y: 166
+  - x: 182
+    y: 167
+  - x: 182
+    y: 168
+  - x: 182
+    y: 169
+  - x: 182
+    y: 179
+  - x: 182
+    y: 180
+  - x: 182
+    y: 181
+  - x: 182
+    y: 182
+  - x: 182
+    y: 183
+  - x: 183
+    y: 128
+  - x: 183
+    y: 129
+  - x: 183
+    y: 130
+  - x: 183
+    y: 131
+  - x: 183
+    y: 132
+  - x: 183
+    y: 133
+  - x: 183
+    y: 134
+  - x: 183
+    y: 148
+  - x: 183
+    y: 149
+  - x: 183
+    y: 150
+  - x: 183
+    y: 151
+  - x: 183
+    y: 152
+  - x: 183
+    y: 153
+  - x: 183
+    y: 154
+  - x: 183
+    y: 155
+  - x: 183
+    y: 156
+  - x: 183
+    y: 157
+  - x: 183
+    y: 158
+  - x: 183
+    y: 159
+  - x: 183
+    y: 160
+  - x: 183
+    y: 161
+  - x: 183
+    y: 162
+  - x: 183
+    y: 163
+  - x: 183
+    y: 164
+  - x: 183
+    y: 165
+  - x: 183
+    y: 166
+  - x: 183
+    y: 167
+  - x: 183
+    y: 179
+  - x: 183
+    y: 180
+  - x: 183
+    y: 181
+  - x: 183
+    y: 182
+  - x: 184
+    y: 129
+  - x: 184
+    y: 130
+  - x: 184
+    y: 131
+  - x: 184
+    y: 132
+  - x: 184
+    y: 133
+  - x: 184
+    y: 134
+  - x: 184
+    y: 150
+  - x: 184
+    y: 151
+  - x: 184
+    y: 152
+  - x: 184
+    y: 153
+  - x: 184
+    y: 154
+  - x: 184
+    y: 155
+  - x: 184
+    y: 156
+  - x: 184
+    y: 157
+  - x: 184
+    y: 158
+  - x: 184
+    y: 159
+  - x: 184
+    y: 160
+  - x: 184
+    y: 161
+  - x: 184
+    y: 162
+  - x: 184
+    y: 163
+  - x: 184
+    y: 164
+  - x: 184
+    y: 165
+  - x: 184
+    y: 179
+  - x: 184
+    y: 180
+  - x: 184
+    y: 181
+  - x: 184
+    y: 182
+  - x: 185
+    y: 131
+  - x: 185
+    y: 132
+  - x: 185
+    y: 133
+  - x: 185
+    y: 134
+  - x: 185
+    y: 135
+  - x: 185
+    y: 153
+  - x: 185
+    y: 154
+  - x: 185
+    y: 155
+  - x: 185
+    y: 156
+  - x: 185
+    y: 157
+  - x: 185
+    y: 158
+  - x: 185
+    y: 159
+  - x: 185
+    y: 160
+  - x: 185
+    y: 161
+  - x: 185
+    y: 178
+  - x: 185
+    y: 179
+  - x: 185
+    y: 180
+  - x: 185
+    y: 181
+  - x: 186
+    y: 131
+  - x: 186
+    y: 132
+  - x: 186
+    y: 133
+  - x: 186
+    y: 134
+  - x: 186
+    y: 135
+  - x: 186
+    y: 177
+  - x: 186
+    y: 178
+  - x: 186
+    y: 179
+  - x: 186
+    y: 180
+  - x: 187
+    y: 133
+  - x: 187
+    y: 134
+  - x: 187
+    y: 135
+  - x: 187
+    y: 136
+  - x: 187
+    y: 137
+  - x: 187
+    y: 138
+  - x: 187
+    y: 175
+  - x: 187
+    y: 176
+  - x: 187
+    y: 177
+  - x: 187
+    y: 178
+  - x: 187
+    y: 179
+  - x: 187
+    y: 180
+  - x: 188
+    y: 133
+  - x: 188
+    y: 134
+  - x: 188
+    y: 135
+  - x: 188
+    y: 136
+  - x: 188
+    y: 137
+  - x: 188
+    y: 138
+  - x: 188
+    y: 175
+  - x: 188
+    y: 176
+  - x: 188
+    y: 177
+  - x: 188
+    y: 178
+  - x: 188
+    y: 179
+  - x: 188
+    y: 180
+  - x: 189
+    y: 135
+  - x: 189
+    y: 136
+  - x: 189
+    y: 137
+  - x: 189
+    y: 138
+  - x: 189
+    y: 139
+  - x: 189
+    y: 173
+  - x: 189
+    y: 174
+  - x: 189
+    y: 175
+  - x: 189
+    y: 176
+  - x: 189
+    y: 177
+  - x: 189
+    y: 178
+  - x: 190
+    y: 135
+  - x: 190
+    y: 136
+  - x: 190
+    y: 137
+  - x: 190
+    y: 138
+  - x: 190
+    y: 139
+  - x: 190
+    y: 140
+  - x: 190
+    y: 141
+  - x: 190
+    y: 172
+  - x: 190
+    y: 173
+  - x: 190
+    y: 174
+  - x: 190
+    y: 175
+  - x: 190
+    y: 176
+  - x: 190
+    y: 177
+  - x: 190
+    y: 178
+  - x: 191
+    y: 137
+  - x: 191
+    y: 138
+  - x: 191
+    y: 139
+  - x: 191
+    y: 140
+  - x: 191
+    y: 141
+  - x: 191
+    y: 142
+  - x: 191
+    y: 143
+  - x: 191
+    y: 171
+  - x: 191
+    y: 172
+  - x: 191
+    y: 173
+  - x: 191
+    y: 174
+  - x: 191
+    y: 175
+  - x: 191
+    y: 176
+  - x: 192
+    y: 138
+  - x: 192
+    y: 139
+  - x: 192
+    y: 140
+  - x: 192
+    y: 141
+  - x: 192
+    y: 142
+  - x: 192
+    y: 143
+  - x: 192
+    y: 144
+  - x: 192
+    y: 168
+  - x: 192
+    y: 169
+  - x: 192
+    y: 170
+  - x: 192
+    y: 171
+  - x: 192
+    y: 172
+  - x: 192
+    y: 173
+  - x: 192
+    y: 174
+  - x: 192
+    y: 175
+  - x: 193
+    y: 140
+  - x: 193
+    y: 141
+  - x: 193
+    y: 142
+  - x: 193
+    y: 143
+  - x: 193
+    y: 144
+  - x: 193
+    y: 145
+  - x: 193
+    y: 146
+  - x: 193
+    y: 163
+  - x: 193
+    y: 164
+  - x: 193
+    y: 165
+  - x: 193
+    y: 166
+  - x: 193
+    y: 167
+  - x: 193
+    y: 168
+  - x: 193
+    y: 169
+  - x: 193
+    y: 170
+  - x: 193
+    y: 171
+  - x: 193
+    y: 172
+  - x: 193
+    y: 173
+  - x: 193
+    y: 174
+  - x: 194
+    y: 141
+  - x: 194
+    y: 142
+  - x: 194
+    y: 143
+  - x: 194
+    y: 144
+  - x: 194
+    y: 145
+  - x: 194
+    y: 146
+  - x: 194
+    y: 147
+  - x: 194
+    y: 148
+  - x: 194
+    y: 149
+  - x: 194
+    y: 159
+  - x: 194
+    y: 160
+  - x: 194
+    y: 161
+  - x: 194
+    y: 162
+  - x: 194
+    y: 163
+  - x: 194
+    y: 164
+  - x: 194
+    y: 165
+  - x: 194
+    y: 166
+  - x: 194
+    y: 167
+  - x: 194
+    y: 168
+  - x: 194
+    y: 169
+  - x: 194
+    y: 170
+  - x: 194
+    y: 171
+  - x: 195
+    y: 143
+  - x: 195
+    y: 144
+  - x: 195
+    y: 145
+  - x: 195
+    y: 146
+  - x: 195
+    y: 147
+  - x: 195
+    y: 148
+  - x: 195
+    y: 149
+  - x: 195
+    y: 150
+  - x: 195
+    y: 151
+  - x: 195
+    y: 152
+  - x: 195
+    y: 153
+  - x: 195
+    y: 154
+  - x: 195
+    y: 155
+  - x: 195
+    y: 156
+  - x: 195
+    y: 157
+  - x: 195
+    y: 158
+  - x: 195
+    y: 159
+  - x: 195
+    y: 160
+  - x: 195
+    y: 161
+  - x: 195
+    y: 162
+  - x: 195
+    y: 163
+  - x: 195
+    y: 164
+  - x: 195
+    y: 165
+  - x: 195
+    y: 166
+  - x: 195
+    y: 167
+  - x: 195
+    y: 168
+  - x: 195
+    y: 169
+  - x: 195
+    y: 170
+  - x: 196
+    y: 145
+  - x: 196
+    y: 146
+  - x: 196
+    y: 147
+  - x: 196
+    y: 148
+  - x: 196
+    y: 149
+  - x: 196
+    y: 150
+  - x: 196
+    y: 151
+  - x: 196
+    y: 152
+  - x: 196
+    y: 153
+  - x: 196
+    y: 154
+  - x: 196
+    y: 155
+  - x: 196
+    y: 156
+  - x: 196
+    y: 157
+  - x: 196
+    y: 158
+  - x: 196
+    y: 159
+  - x: 196
+    y: 160
+  - x: 196
+    y: 161
+  - x: 196
+    y: 162
+  - x: 196
+    y: 163
+  - x: 196
+    y: 164
+  - x: 196
+    y: 165
+  - x: 196
+    y: 166
+  - x: 196
+    y: 167
+  - x: 197
+    y: 147
+  - x: 197
+    y: 148
+  - x: 197
+    y: 149
+  - x: 197
+    y: 150
+  - x: 197
+    y: 151
+  - x: 197
+    y: 152
+  - x: 197
+    y: 153
+  - x: 197
+    y: 154
+  - x: 197
+    y: 155
+  - x: 197
+    y: 156
+  - x: 197
+    y: 157
+  - x: 197
+    y: 158
+  - x: 197
+    y: 159
+  - x: 197
+    y: 160
+  - x: 197
+    y: 161
+  - x: 197
+    y: 162
+  - x: 198
+    y: 150
+  - x: 198
+    y: 151
+  - x: 198
+    y: 152
+  - x: 198
+    y: 153
+  - x: 198
+    y: 154
+  - x: 198
+    y: 155
+  - x: 198
+    y: 156
+  - x: 198
+    y: 157
+  - x: 198
+    y: 158
+--- !u!114 &1037940340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1037940335}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d43b8f65c6c241f4d90e10162ceef86f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _list:
+  - Info: HappyScore
+    _type: 0
+    _companies:
+      _list: []
+  - Info: Citizen
+    _type: 1
+    _companies:
+      _list: []
+  - Info: Dollar
+    _type: 2
+    _companies:
+      _list: []
+  - Info: Food
+    _type: 3
+    _companies:
+      _list: []
+  - Info: Fuel
+    _type: 4
+    _companies:
+      _list: []
+  - Info: Policmen
+    _type: 5
+    _companies:
+      _list: []
+  - Info: Criminal
+    _type: 6
+    _companies:
+      _list: []
+  - Info: FireFighter
+    _type: 7
+    _companies:
+      _list: []
+  - Info: Fire
+    _type: 8
+    _companies:
+      _list: []
+  - Info: Military
+    _type: 9
+    _companies:
+      _list: []
+  - Info: Enemy
+    _type: 10
+    _companies:
+      _list: []
+  - Info: GroundTransport
+    _type: 11
+    _companies:
+      _list: []
+  - Info: FlyTrasport
+    _type: 12
+    _companies:
+      _list: []
+  - Info: WaterTransport
+    _type: 13
+    _companies:
+      _list: []
+  - Info: Culture
+    _type: 14
+    _companies:
+      _list: []
+  - Info: Patriotizm
+    _type: 15
+    _companies:
+      _list: []
+  - Info: Electronics
+    _type: 16
+    _companies:
+      _list: []
+  - Info: Logistics
+    _type: 17
+    _companies:
+      _list: []
+  - Info: Worker
+    _type: 18
+    _companies:
+      _list: []
+  - Info: Engineer
+    _type: 19
+    _companies:
+      _list: []
+  - Info: Doctor
+    _type: 20
+    _companies:
+      _list: []
+  - Info: Lawyer
+    _type: 21
+    _companies:
+      _list: []
+  - Info: Scientist
+    _type: 22
+    _companies:
+      _list: []
+  - Info: Energy
+    _type: 23
+    _companies:
+      _list: []
+  - Info: BuildingMaterials
+    _type: 24
+    _companies:
+      _list: []
+  - Info: MassMedia
+    _type: 25
+    _companies:
+      _list: []
+  - Info: Water
+    _type: 26
+    _companies:
+      _list: []
+  - Info: Garbage
+    _type: 27
+    _companies:
+      _list: []
+  - Info: Parasites
+    _type: 28
+    _companies:
+      _list: []
+  - Info: Medicines
+    _type: 29
+    _companies:
+      _list: []
+  - Info: HighTech
+    _type: 30
+    _companies:
+      _list: []
+  - Info: Liberty
+    _type: 31
+    _companies:
+      _list: []
+  - Info: Religion
+    _type: 32
+    _companies:
+      _list: []
+  - Info: Sand
+    _type: 33
+    _companies:
+      _list: []
+  - Info: Metall
+    _type: 34
+    _companies:
+      _list: []
+  - Info: Cement
+    _type: 35
+    _companies:
+      _list: []
+--- !u!1 &1123677917
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1123677918}
+  - component: {fileID: 1123677919}
+  - component: {fileID: 1123677920}
+  - component: {fileID: 1123677921}
+  - component: {fileID: 1123677922}
+  - component: {fileID: 1123677924}
+  - component: {fileID: 1123677923}
+  - component: {fileID: 1123677925}
+  - component: {fileID: 1123677926}
+  - component: {fileID: 1123677927}
+  m_Layer: 0
+  m_Name: CityCompany
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1123677918
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1213319558}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1123677919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee86123d8869cb4b90a92527ff782c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Log: 
+  _name: City
+  _reputation: 0
+  _age: 0
+  City: {fileID: 0}
+  Resources:
+    _list:
+    - _type: 2
+      _currentCount: 100000
+      _price: 1
+    - _type: 1
+      _currentCount: 100
+      _price: 1
+    - _type: 4
+      _currentCount: 400
+      _price: 1
+    - _type: 0
+      _currentCount: 15
+      _price: 1
+  Tax:
+    _list: []
+--- !u!114 &1123677920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 572634f1b4a023f479721924abcbde66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  Requires:
+    _list: []
+--- !u!114 &1123677921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f992d5451e71e046827285bb722aaab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _prioritets:
+    _list:
+    - _type: 3
+      _multiTarget: 4
+      Cash: 0
+      Prioritet: 0
+    - _type: 4
+      _multiTarget: 4
+      Cash: 0
+      Prioritet: 0
+    - _type: 23
+      _multiTarget: 4
+      Cash: 0
+      Prioritet: 0
+    - _type: 29
+      _multiTarget: 4
+      Cash: 0
+      Prioritet: 0
+--- !u!114 &1123677922
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6edbd6b50c3224c91ff8df9e463719, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _spendResources:
+  - Type: 3
+    Spend: 30
+  - Type: 4
+    Spend: 30
+  - Type: 23
+    Spend: 30
+  - Type: 29
+    Spend: 30
+--- !u!114 &1123677923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c9bb719de6a90a243af3d3b25ab4e6b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _countBenefit: 1000
+  _type: 2
+--- !u!114 &1123677924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdfe6243c41518641a6d0feacdbd7267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 1
+  TargetSpace: 1
+  Spaces:
+    _list: []
+--- !u!114 &1123677925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9cfd5e0b57340644f922331afbf37c43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+--- !u!114 &1123677926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c81fa5964799f64aa2ceccb6c34fc57, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  _startGrow: 15
+  _speed: 0.01
+--- !u!114 &1123677927
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1123677917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76588d74f1ea7df4f9359865a76fafc4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Delay: 30
+  Resources:
+  - _type: 18
+    _currentCount: 50
+    _price: 200
+  - _type: 20
+    _currentCount: 2
+    _price: 400
+  - _type: 19
+    _currentCount: 2
+    _price: 400
+--- !u!1 &1213319556
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1213319558}
+  - component: {fileID: 1213319557}
+  m_Layer: 0
+  m_Name: Executors
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1213319557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213319556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03e77c65a4aa2e4dbbd963d4d6cb7d3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _localCompanyPrefab: {fileID: 8721074404747715104, guid: ba67233c30924bc4195abe2ce135f91e, type: 3}
+  _directorPrefab: {fileID: 303082451470125073, guid: 1da2a3fd78e246041977509c122610aa, type: 3}
+  _firstNames:
+  - "\u0414\u043C\u0438\u0442\u0440\u0438\u0439"
+  - "\u0410\u0440\u0441\u0435\u043D\u0438\u0439"
+  - "\u042D\u0440\u0438\u043A"
+  - "\u041C\u0430\u043A\u0441\u0438\u043C"
+  - "\u041C\u0430\u043A\u0430\u0440"
+  - "\u0412\u044F\u0447\u0435\u0441\u043B\u0430\u0432"
+  - "\u0412\u043B\u0430\u0434\u0438\u0441\u043B\u0430\u0432"
+  - "\u0420\u0443\u0441\u043B\u0430\u043D"
+  - "\u0410\u043D\u0430\u0442\u043E\u043B\u0438\u0439"
+  - "\u0412\u0430\u0434\u0438\u043C"
+  - "\u041A\u043E\u043D\u0441\u0442\u0430\u043D\u0442\u0438\u043D"
+  - "\u0421\u0430\u0432\u0435\u043B\u0438\u0439"
+  - "\u0413\u0435\u0440\u043C\u0430\u043D"
+  - "\u0421\u0442\u0430\u043D\u0438\u0441\u043B\u0430\u0432"
+  - "\u0410\u0440\u0441\u0435\u043D"
+  - "\u042F\u043A\u043E\u0432"
+  - "\u041C\u0430\u0440\u0442\u0438\u043D"
+  - "\u041C\u0438\u0440\u043E\u043D"
+  - "\u0410\u043B\u0438"
+  - "\u041F\u043B\u0430\u0442\u043E\u043D"
+  _lastName:
+  - "\u0410\u0431\u0440\u0430\u043C\u043E\u0432 "
+  - "\u0410\u043A\u0441\u0435\u043D\u043E\u0432 "
+  - "\u0411\u0435\u043B\u043E\u0432"
+  - "\u0411\u0435\u043B\u043E\u0443\u0441\u043E\u0432 "
+  - "\u0411\u0438\u0440\u044E\u043A\u043E\u0432 "
+  - "\u0413\u0430\u043B\u043A\u0438\u043D "
+  - "\u0414\u043C\u0438\u0442\u0440\u0438\u0435\u0432 "
+  - "\u0415\u0433\u043E\u0440\u043E\u0432"
+  - "\u0416\u0434\u0430\u043D\u043E\u0432 "
+  - "\u041A\u043B\u044E\u0435\u0432 "
+  - "\u0410\u043A\u0438\u043C\u043E\u0432 "
+  - "\u0410\u043A\u0438\u043C\u043E\u0432 "
+  - "\u0410\u043D\u0434\u0440\u0435\u0435\u0432 "
+  - "\u0410\u043D\u0442\u043E\u043D\u043E\u0432 "
+  - "\u0411\u0430\u0440\u0430\u043D\u043E\u0432 "
+--- !u!4 &1213319558
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1213319556}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 187.08395, y: -132.86665, z: -0.70939255}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1123677918}
+  - {fileID: 780930133}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1374453652
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1374453653}
+  - component: {fileID: 1374453655}
+  - component: {fileID: 1374453654}
+  m_Layer: 3
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1374453653
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374453652}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -52.431274, y: 0, z: -19.298254}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1037940338}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!154 &1374453654
+TerrainCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374453652}
+  m_Material: {fileID: 0}
+  m_Enabled: 1
+  m_TerrainData: {fileID: 15600000, guid: 32f7404f05cc1f94790c90bb71e6de02, type: 2}
+  m_EnableTreeColliders: 1
+--- !u!218 &1374453655
+Terrain:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1374453652}
+  m_Enabled: 1
+  serializedVersion: 6
+  m_TerrainData: {fileID: 15600000, guid: 32f7404f05cc1f94790c90bb71e6de02, type: 2}
+  m_TreeDistance: 5000
+  m_TreeBillboardDistance: 50
+  m_TreeCrossFadeLength: 5
+  m_TreeMaximumFullLODCount: 50
+  m_DetailObjectDistance: 80
+  m_DetailObjectDensity: 1
+  m_HeightmapPixelError: 5
+  m_SplatMapDistance: 1000
+  m_HeightmapMaximumLOD: 0
+  m_ShadowCastingMode: 2
+  m_DrawHeightmap: 1
+  m_DrawInstanced: 0
+  m_DrawTreesAndFoliage: 1
+  m_ReflectionProbeUsage: 1
+  m_MaterialTemplate: {fileID: 10652, guid: 0000000000000000f000000000000000, type: 0}
+  m_BakeLightProbesForTrees: 1
+  m_PreserveTreePrototypeLayers: 0
+  m_DeringLightProbesForTrees: 1
+  m_ScaleInLightmap: 0.0256
+  m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000, type: 0}
+  m_GroupingID: 0
+  m_RenderingLayerMask: 1
+  m_AllowAutoConnect: 1
+--- !u!1 &1637768358
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1637768360}
+  - component: {fileID: 1637768359}
+  m_Layer: 0
+  m_Name: '[TimeLaps]'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1637768359
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637768358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b27429afd1405408dcb6493508f772, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _log: 
+  Pause: 0
+  DayDelay: 0.2
+  CurrentDay: 0
+--- !u!4 &1637768360
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637768358}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1848859632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1848859635}
+  - component: {fileID: 1848859634}
+  - component: {fileID: 1848859633}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1848859633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848859632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1848859634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848859632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1848859635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1848859632}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914055050
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914055051}
+  - component: {fileID: 1914055053}
+  - component: {fileID: 1914055052}
+  m_Layer: 0
+  m_Name: START
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1914055051
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914055050}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 27.89, y: 9.21, z: 55.99}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1037940338}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1914055052
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914055050}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1914055053
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914055050}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1931020755
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1931020757}
+  - component: {fileID: 1931020759}
+  m_Layer: 0
+  m_Name: Demo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1931020757
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931020755}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.1185746, y: -15.970705, z: 17.407095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1931020759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1931020755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bbfaba2bfb84964da0a3f81faa88ba6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _builders:
+  - Description: Test  1
+    Builder: {fileID: 11400000, guid: 12423d43246449642a07fab9eda234e7, type: 2}
+    Chance: 100
+  _mapInit: {fileID: 1037940339}
+  Delay: 0
