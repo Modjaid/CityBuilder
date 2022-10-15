@@ -1,2 +1,2 @@
 # CityBuilder 
-Unity Version 2020.3.14f1 *
+Unity Version 2020.3.14f1
